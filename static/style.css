@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 50px;
+    background: url('../static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Split the page into two halves */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    padding: 120px;
+}
+
+/* Left section for prediction */
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Prediction Box */
+.prediction-box {
+    width: 500px;
+    background: #bcbcbc93;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.prediction-box:hover {
+    transform: scale(1.05);
+}
+
+/* "Did You Know" Box */
+.fact-box {
+    width: 300px;
+    background: rgba(168, 168, 160, 0.603);
+    color: #000000;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    font-style: italic;
+}
+
+
+.fact-box:hover {
+    transform: scale(1.05);
+}
+
+/* Input Fields */
+
+
+
+button:hover {
+    background: linear-gradient(90deg, #33b04e, #28a745);
+    transform: scale(1.05);
+    background-color: #005fa3;
+}
+
+button {
+    width: 92%;
+    background-color: #0077cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+/* Heading styling */
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+/* Form inputs */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #cc00be;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
+}
+
+/* Prediction button */
+
+
+/* Output result */
+.result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #18108c;
+}
+
+/* Did You Know Box */
+
+
+.did-you-know-box:hover {
+    transform: scale(1.02);
+}
+
+
+
+/* Prevent scrolling */
