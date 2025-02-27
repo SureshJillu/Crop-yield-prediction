@@ -13,6 +13,12 @@ Additionally, a **"Did You Know?"** box fetches **real-time interesting facts** 
 ✅ **Flask-Based UI**: User-friendly design with dropdowns for region & crop selection  
 ✅ **Real-Time Fun Facts**: Displays **changing random interesting facts**  
 
+
+--- 
+Hosted on **Render** for live access.
+🔗 [Crop Yield Prediction App](https://crop-yield-prediction-4vwo.onrender.com/)  
+
+
 ---
 
 ## 📁 Project Structure
